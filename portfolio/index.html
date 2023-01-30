@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav id="navbar" class="flex s-around bg-color">
+        <div class="left-nav">
+            <h2 class="t-white"><span>Palak</span> Agrawal</h2>
+        </div>
+        <div class="right-nav">
+            <ul class="flex">
+                <li><a href="#home" class="t-white roboto">Home</a></li>
+                <li><a href="#about" class="t-white roboto">About Me</a></li>
+                <li><a href="#skills" class="t-white roboto">Skills</a></li>
+                <li><a href="#contact" class="t-white roboto">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Navigator -->
+    <section id="bottom">
+        <div class="bottom-nav flex s-center items-center">
+            <ul class="flex s-around items-center">
+                <a href="#home">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-house"></i></li>
+                </a>
+                <a href="#about">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-user"></i></li>
+                </a>
+                <a href="#skills">
+                    <li class="bottomo-hover flex s-center items-center"><i class="fa-solid fa-code"></i></li>
+                </a>
+                <a href="#contact">
+                    <li class="bottomo-hover flex s-center items-center">
+                        <i class="fa-solid fa-rocket"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home" class="flex s-around sw-80 m-auto">
+
+        <div class="home-left flex items-center">
+            <div class="home-content">
+                <h6 class="poppinss">Hello, my name is</h6>
+                <h1 class="t-white">Palak Agrawal</h1>
+                <h4 class="poppinss">And i'm a <span>Web Developer</span></h4>
+                <a href="#" target="_blank"><button
+                        class="btn poppins">Resume</button></a>
+
+            </div>
+        </div>
+        <div class="home-right flex s-center items-center">
+            <div class="circle flex s-center items-center" id="mainImage">
+
+                <img src="images/main.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1 class="t-center my-2 t-white f-2">About Me</h1>
+        <div class="about-container flex s-around ">
+            <div class=" about-left flex s-center items-center">
+                <img src="images/bg.jpg" alt="" style="width: 50%;">
+            </div>
+
+            <div class="about-right flex">
+                <div class="about-content">
+                    <h1 class="t-white m-b-1 poppins">Palak Agrawal</h1>
+                    <p class="t-white poppins">
+
+                            I  am a creative developer and designer who aims to work with small business
+                            and marginalized communities to bring their passions to life.<br> I offer both 
+                            front-end and back-end services of websites. <br>Coming from a background in design, 
+                            i like to create pages where I'm able to actually create enjoyable interactions and experiences 
+                            for everyone.
+
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h1 class="t-center my-2 t-white f-2">Skills</h1>
+     <div class="services-container flex s-around h-50">
+        
+        <div class="skills-right flex items-center">
+            <div class="skillss-container">
+                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
+                        class="bar-content right-skills t-white">90%</span></div>
+                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
+                        class="bar-content right-skills t-white">80%</span></div>
+                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
+                        class="bar-content right-skills t-white">60%</span></div>
+                <div class="bootstrap bar p-relative"><span class="bar-content left t-white">Bootstrap</span><span
+                        class="bar-content right-skills t-white">40%</span></div>
+                <div class="reactjs bar p-relative"><span class="bar-content left t-white">ReactJs</span><span
+                        class="bar-content right-skills t-white">30%</span></div>
+                <div class="pl bar p-relative"><span class="bar-content left t-white">Programming languages</span><span
+                        class="bar-content right-skills t-white">70%</span></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Contact Me Section -->
+    <section id="contact" class="m-b-1">
+        <h1 class=" t-center my-2 t-white f-2">Contact Me</h1>
+        <div class="contact-container flex s-around items-centers">
+            <div class="form" id="contactForm">
+                <form action="" id="contactFrom">
+                    <div class="name form-div">
+                        <input type="text" name="name" id="name" class="poppins" placeholder="Enter Your Name">
+                    </div>
+                    <div class="email form-div">
+                        <input type="email" name="email" id="email" class="poppins" placeholder="Enter Your Email"
+                            required>
+                    </div>
+                    <div class="phone form-div">
+                        <input type="phone" name="phone" id="phone" class="poppins" placeholder="Enter Your Phone"
+                            required>
+                    </div>
+                    <div class="textarea form-div">
+                        <textarea name="text" id="textarea" cols="30" rows="10" class="poppins"
+                            placeholder="Enter Messages"></textarea>
+                    </div>
+                    <button type="submit" class="btn poppins" id="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <ul class="flex s-center w-80 m-auto my-2 res">
+            <li><a href="#home" class="poppinss">Home</a></li>
+            <li><a href="#about" class="poppinss">About</a></li>
+            <li><a href="#skills" class="poppinss">Skills</a></li>
+            <li><a href="#contact" class="poppinss">Contact</a></li>
+        </ul>
+    </footer>
+
+    
+</body>
+<script src="/script.js"></script>
+
+</html>
